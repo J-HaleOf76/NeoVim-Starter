@@ -6,3 +6,11 @@
 git clone https://github.com/J-HaleOf76/NeoVim-Starter.git ~/.config/nvim
 ```
 
+### This is the beginnings of my own config/system -- treat it as such --
+- TODO -
+- work on versioning
+- Customize this and keep track of what's going on.
+- neovim integrations
+- keymaps
+- floating windows
+- 
