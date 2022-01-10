@@ -20,5 +20,3 @@ require "user.alpha"
 require "user.whichkey"
 require "user.autocommands"
 
-
-
