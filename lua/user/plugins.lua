@@ -55,17 +55,10 @@ return packer.startup(function(use)
   use "ahmedkhalf/project.nvim"
   use "lewis6991/impatient.nvim"
   use "lukas-reineke/indent-blankline.nvim"
-  use "goolord/alpha-nvim"
+  use "goolord/alpha-nvim"   -- Custom Home page
   use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
-  use "folke/which-key.nvim"
-  use  {
-      "ray-x/lsp_signature.nvim",
-      event = "BufRead",
-      config = function()
-        require "lsp_signature".setup()
-      end
-      }
-  use { "metakirby5/codi.vim",
+  use "folke/which-key.nvim"    -- Custom key maps
+  use { "metakirby5/codi.vim",   --  Scratch-Pad
           cmd = "Codi",}
 
 
@@ -85,6 +78,8 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-cmdline" -- cmdline completions
   use "saadparwaiz1/cmp_luasnip" -- snippet completions
   use "hrsh7th/cmp-nvim-lsp"
+  use "hrsh7th/cmp-nvim-lua"
+
 
   -- snippets
   use "L3MON4D3/LuaSnip" --snippet engine
@@ -95,6 +90,13 @@ return packer.startup(function(use)
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
   use "tamago324/nlsp-settings.nvim" -- language server settings defined in json for
   use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
+--  use  {
+--      "ray-x/lsp_signature.nvim",
+--      event = "BufRead",
+--      config = function()
+--        require "lsp_signature".setup()
+--      end
+--      }
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"
