@@ -5,6 +5,7 @@ end
 
 local dashboard = require("alpha.themes.dashboard")
 dashboard.section.header.val = {
+  [[JOHN_HALE                                        ]],
 	[[                               __                ]],
 	[[  ___     ___    ___   __  __ /\_\    ___ ___    ]],
 	[[ / _ `\  / __`\ / __`\/\ \/\ \\/\ \  / __` __`\  ]],
