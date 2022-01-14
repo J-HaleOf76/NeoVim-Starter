@@ -57,9 +57,10 @@ return packer.startup(function(use)
   use "lukas-reineke/indent-blankline.nvim"
   use "goolord/alpha-nvim"   -- Custom Home page
   use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
-  use "folke/which-key.nvim"    -- Custom key maps
+  use "folke/which-key.nvim"    -- Learn Custom key maps
   use { "metakirby5/codi.vim",   --  Scratch-Pad - I need to read on this
           cmd = "Codi",}
+  use "folke/lsp-colors.nvim"
 
 
   -- Colorschemes
