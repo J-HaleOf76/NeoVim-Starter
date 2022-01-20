@@ -1,3 +1,5 @@
+-- trying to add a colorscheme
+
 vim.cmd [[
 try
   colorscheme darkplus
@@ -6,3 +8,4 @@ catch /^Vim\%((\a\+)\)\=:E185/
   set background=dark
 endtry
 ]]
+vim.cmd[[colorscheme tokyonight]]
