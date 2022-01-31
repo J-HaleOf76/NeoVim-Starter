@@ -8,4 +8,4 @@ catch /^Vim\%((\a\+)\)\=:E185/
   set background=dark
 endtry
 ]]
-vim.cmd[[colorscheme tokyonight]]
+vim.cmd[[colorscheme catppuccin]]

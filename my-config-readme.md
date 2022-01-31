@@ -13,4 +13,12 @@ git clone https://github.com/J-HaleOf76/NeoVim-Starter.git ~/.config/nvim
 - neovim integrations
 - keymaps
 - floating windows
-- 
+- WHY SHIT BREAKES AND HOW TO FIX IT.
+
+### Let's get a repo for my machines going.
+#### Start with the basics...
+* Notes/ system of writings and what I learned today.
+* Arcolinux configs
+* What to learn.
+*
+
