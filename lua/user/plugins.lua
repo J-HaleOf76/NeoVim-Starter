@@ -70,7 +70,7 @@ return packer.startup(function(use)
   use "catppuccin/nvim" -- Nice complete themes.
   use "projekt0n/github-nvim-theme" -- Awesome themes with several different looks
   use "rafamadriz/neon" -- Cool neon theme
-
+  use 'glepnir/zephyr-nvim' -- Dark BG / with yellow teal FG
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
