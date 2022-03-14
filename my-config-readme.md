@@ -1,3 +1,5 @@
+# As soon as I changed the name of this repo It lost connection to the OG repo... //  I think //
+
 ## This is for my configuration files and how to use this on my laptop.
 * I should clone and use this instead of the original repo.
 * Push to here and pull from the OG repository.
